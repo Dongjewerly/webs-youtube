@@ -23,7 +23,7 @@ const Developer = ({ videos, title, id}) => {
     return (
         <section id={id} className={developerClass}>
             <h2>{title}</h2>
-            <div className='developer_inner'>
+            <div className='developer___inner'>
                 <Swiper 
                     slidesPerView={4}
                     spaceBetween={15}
@@ -79,6 +79,7 @@ const Developer = ({ videos, title, id}) => {
                     ))}
                 </Swiper>
             </div>
+            
         </section>
     )
 }
