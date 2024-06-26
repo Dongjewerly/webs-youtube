@@ -94,3 +94,52 @@
         }
     }
 }
+
+//비디오페이지
+#videoViewPage {
+    padding: 0;
+    
+    @media (max-width:800px){
+        margin-top: 80px;
+    }
+}
+
+.video_view{
+    .video_play{
+        width: 100%;
+        padding-bottom: 56.2%;
+        position: relative;
+    }
+    .video_info{
+        padding: 40px;
+        .video_channel{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            background-color: #111;
+            padding: 10px 30px;
+            border-radius: 40px;
+            .id{
+                font-weight: 800;
+            }
+        }
+        .count{
+            span {
+                border-radius: 40px;
+                font-size: 14px;
+                margin-left: 10px;
+
+                svg{
+                    width: 20px;
+                    height: 20px;
+                    vertical-align: -5px;
+                    margin-top: 5px;
+                }
+            }
+
+        }
+        .video_desc {
+            white-space: pre-line;
+        }
+    }
+}
