@@ -13,7 +13,7 @@ const Video = () => {
     const [ videoDetail, setVideoDetail ] = useState(null);
 
     useEffect(() => {
-        fetchFromAPI(`videos?part=snippet,statistics&id=${videoId}`)
+        fetchFromAPI(`videos?type=video&part=snippet,statistics&id=${videoId}`)
         .then((data) => {
             console.log(data);
             setVideoDetail(data.items[0])
@@ -31,7 +31,7 @@ const Video = () => {
                     <div className='video_play'>
                         <ReactPlayer 
                         playing={true}
-                        url={`https://www.youtube.com/watch?v=${videoId}`}
+                        url={`https://www.youtube.com/watch?v=${videoId}`} 
                         width='100%'
                         height='100%'
                         style={{position:'absolute',top: 0, left:0}}
