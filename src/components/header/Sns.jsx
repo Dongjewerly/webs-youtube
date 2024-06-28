@@ -3,7 +3,7 @@ import { snsLink } from '../../data/header'
 
 const Sns = () => {
   return (
-    <div className='header__sns'>
+    <div className='header_sns'>
         <ul>
             {snsLink.map((sns,key)=>(
                 <li key={key}>

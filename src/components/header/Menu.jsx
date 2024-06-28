@@ -7,7 +7,7 @@ const Menu = () => {
     const location = useLocation();
 
   return (
-        <nav className='header__menu'>
+        <nav className='header_menu'>
             <ul className='menu'>
                 {headerMenus.map((menu,key)=>(
                     <li key={key} className={location.pathname===menu.src?'active':''}>

@@ -1,4 +1,4 @@
-.header__logo {
+.header_logo {
     border-bottom: 1px solid var(--black100);
 
     a {
@@ -41,7 +41,7 @@
     
 }
 
-.header__menu {
+.header_menu {
     padding: 10px 0;
 
     .menu {
@@ -113,7 +113,7 @@
     }
 }
 
-.header__sns {
+.header_sns {
     position: fixed;
     bottom: 0;
     left: 0;
