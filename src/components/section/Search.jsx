@@ -16,7 +16,7 @@ const Search = () => {
 
   return (
     <div id='Search'>
-        <div className='Search_inner'>
+        <div className='Search__inner'>
             <label htmlFor="searchInput">
                 <span className='ir'>검색</span>
             </label>

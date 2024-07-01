@@ -45,10 +45,10 @@ const Search = () => {
             
             <section id='searchPage' className={searchPageClass}>
                 <h2>🤠 <em>{searchId}</em> 검색 결과입니다.</h2>
-                <div className="video__inner search">
+                <div className="video_inner search">
                     <VideoSearch videos={videos} />
                 </div>
-                <div className="video__more">
+                <div className="video_more">
                     {nextPageToken && (
                         <button onClick={handleLoadMore}>더 보기</button>
                     )}
